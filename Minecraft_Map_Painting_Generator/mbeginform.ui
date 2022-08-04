@@ -84,6 +84,19 @@
     <string>0</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>350</y>
+     <width>721</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>软件还处于开发测试版，很多非核心功能以及界面动效美化、功能优化还未制作，见谅QAQ~</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
