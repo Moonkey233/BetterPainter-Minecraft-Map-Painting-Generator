@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MFinishForm</class>
+ <widget class="QWidget" name="MFinishForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="info">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>451</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>感谢使用本软件  作者：Moonkey  开发测试版
+
+Minecraft-Map-Painting-Generator  2022
+
+欢迎您反馈宝贵的建议与意见！</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="bilibiliButton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>400</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bilibili</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="fileButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>400</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看导出的文件</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>560</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出软件</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="githubButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>400</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GitHub</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="beginButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>560</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回开始界面</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="editButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>560</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回编辑界面</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>290</y>
+     <width>951</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导出的预览图即为functions导入游戏后在地图上看到的样子
+functions怎么用？当前版本请自行使用行为包模板打包导入游戏，每次需要更改uuid（不了解行为包B站有很多教程）
+clear文件为清除建筑使用的，将覆盖每一个方块为空气
+使用/function命令导入文件，请加载目标范围的区块，受限于/function命令一次只能执行10000条，若不止一个文件，请按序号全部导入</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
