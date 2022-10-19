@@ -1,4 +1,4 @@
-# Minecraft-Map-Painting-Generator
+# BetterPainter: Minecraft-Map-Painting-Generator
 Minecraft Map Painting Generator designed by Moonkey_
 2022
 未经授权禁止盗用、商用等行为
